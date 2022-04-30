@@ -1,0 +1,343 @@
+body {
+  background-image: url(/images/bg800bulbs.jpg);
+  background-color: rgb(84, 77, 71);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  font-family: 'Mukta', sans-serif;
+}
+
+.content {
+  margin: 2rem auto;
+  max-width: 50rem;
+  background-color: rgb(255 255 255);
+  border-radius: .5rem;
+}
+
+/* NAVBAR & HEADER */
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: .75rem;
+}
+
+
+.logo {
+  padding-left: .75rem;
+  padding-bottom: .25rem;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding-right: .5rem;
+  padding-bottom: .5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.nav-item a:hover {
+  color: #3e8e41;
+  transition: 0.3s;
+}
+
+
+header {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.hero {
+  width: 100%;
+  border-top: 2px solid rgb(110, 110, 110);
+  border-bottom: 2px solid rgb(110, 110, 110);
+}
+
+/* HEADINGS and HR */
+
+h1 {
+  position: absolute;
+  bottom: 60%;
+  left: 5%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  color: rgb(255, 255, 255)
+}
+
+h2 {
+  position: absolute;
+  bottom: 50%;
+  left: 6%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25rem;
+  color: rgb(255, 255, 255)
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+/* MAIN SECTIONS START HERE */
+
+section {
+  height: auto;
+  padding: 1rem;
+  line-height: 1.75rem;
+  clear: both;
+  margin-bottom: 2rem;
+}
+
+section img {
+  border-radius: .5rem;
+  margin-left: 1rem;
+  margin-bottom: .5rem;
+  float: right;
+  max-width: 100%;
+}
+
+/* MAIN DONE */
+
+.backtotop {
+  margin-top: 5rem;
+  margin-bottom: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.return {
+  border-radius: 2rem;
+  border: 2px solid rgb(110, 110, 110);
+  padding: .5rem 6rem;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(227, 227, 227);
+  transition: 0.3s;
+}
+
+.return:hover {
+  background-color: #3e8e41;
+  border-color: #3e8e41;
+  color: azure;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* TESTIMONIAL CONTENT */
+
+.testimonial-link {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.testimonial-box-text {
+  font-size: 1.25rem;
+}
+
+.testimonial {
+  margin: 2rem auto;
+  width: 95%;
+  background-color: rgb(248, 255, 254);
+  border: 2.5px solid rgb(176, 210, 203);
+  border-left: .75rem solid rgb(176, 210, 203);
+  clear: both;
+  overflow: auto;
+}
+
+.testimonial p {
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.testimonial img {
+  float: left;
+  padding: 2rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.customer-names {
+  font-weight: 800;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+
+  background-color: rgba(175, 206, 198);
+  max-width: 60%;
+  padding: 1rem;
+  border-radius: .5rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.contact-form .input {
+  width: 100%;
+}
+
+.radio-options {
+  width: 100%;
+  font-size: 1rem;
+}
+
+.submit-box {
+  text-align: center;
+}
+
+.submit-contact {
+  padding: .5rem 2rem;
+  background-color: rgb(227, 227, 227);
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+
+.submit-contact:hover{
+  cursor: pointer;
+  background-color: #3e8e41;
+  transition: 0.3s;
+  border-color: #3e8e41;
+  color: white;
+}
+
+.input {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.form-reset{
+  text-align: center;
+}
+
+.form-reset input{
+  padding: .5rem 1rem;
+  background-color: rgb(227, 227, 227);
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+
+.form-reset input:hover{
+  cursor: pointer;
+  background-color: #e00707;
+  transition: 0.3s;
+  border-color: #e00707;
+  color: white;
+}
+
+/* FOOTER CONTENT */
+
+footer {
+  background-color: rgb(211, 104, 26);
+  border-top: .5px solid rgb(110, 110, 110);
+  margin-bottom: 3rem;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  padding: 1.5rem 2rem;
+}
+
+footer p {
+  color: whitesmoke;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 700;
+}
+
+
+/* MOBILE DISPLAY */
+@media only screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+    float: none;
+  }
+  
+  section{
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+  }
+  
+  section img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .testimonial img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-width: 16rem;
+  }
+
+  .content {
+    margin: 0rem auto;
+    max-width: 50rem;
+    background-color: rgb(255 255 255);
+    border-radius: 0rem;
+  }
+
+  footer {
+    margin-bottom: 0rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    padding: 1.5rem 2rem;
+    /* background and margin removed for mobile display, 
+    I think it looks better this way */
+  }
+
+  h1 {
+    position: absolute;
+    bottom: 55%;
+    left: 5%;
+    font-size: 3rem;
+  }
+
+  h2 {
+    position: absolute;
+    bottom: 40%;
+    left: 7%;
+    font-size: 1.25rem;
+  }
+
+  h3{
+    font-size: 2rem;
+  }
+
+  .testimonial-box-text p {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    margin-right: .5rem;
+    margin-left: .5rem;
+  }
+
+form, .radio-options, .testimonial-box-text p{
+  font-size: 1.5rem;
+}
+}
+
+
+/* code validated with W3C CSS validator https://jigsaw.w3.org/css-validator/ */

@@ -1,0 +1,55 @@
+*:not(hr){
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+  /* had to remove horizontal rule(s) from universal selector, 
+  could not make reappear through styling */
+  
+  body {
+    line-height: 1;
+  }
+  
+  article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  blockquote,q {
+    quotes: none;
+  }
+  
+  blockquote:before,blockquote:after,q:before,q:after {
+    content: '';
+    content: none;
+  }
+  
+  a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  input,select {
+    vertical-align: middle;
+  }
+  
+  /* RESETS DONE */
+  /* RESETS DONE */
+  /* RESETS DONE */
+
+  /* code validated with W3C CSS validator https://jigsaw.w3.org/css-validator/ */
